@@ -30,10 +30,9 @@ task clean(type: Delete) {
 }
 
 ext {
-    minSdkVersion = 16
-    targetSdkVersion = 30
-    compileSdkVersion = 30
-    buildToolsVersion = '26.0.1'
+    minSdkVersion = 19
+    targetSdkVersion = 31
+    compileSdkVersion = 31
 
     supportLibVersion = '25.3.1'
     okhttp3Version = '3.6.0'
